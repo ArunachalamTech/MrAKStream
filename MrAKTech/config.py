@@ -25,7 +25,7 @@ class Telegram:
     # Channel list
     AUTH_CHANNEL = int(env.get("AUTH_CHANNEL", "-1002032099678"))   # Logs channel for auth channel main
     AUTH_CHANNEL2 = int(env.get("AUTH_CHANNEL2", "-1002312837151")) # Logs channel for auth channel sub
-    FLOG_CHANNEL = int(env.get("FLOG_CHANNEL", "-1002678619141"))   # Logs channel for file logs
+    FLOG_CHANNEL = int(env.get("FLOG_CHANNEL", "-1002223436923"))   # Logs channel for file logs
     ULOG_CHANNEL = int(env.get("ULOG_CHANNEL", "-1002574716230"))   # Logs channel for user logs
     ELOG_CHANNEL = int(env.get("ELOG_CHANNEL", "-1002657841408"))   # Logs channel for error logs
     SULOG_CHANNEL = int(env.get("SULOG_CHANNEL", "-1002686790297")) # Logs channel for storage user logs
