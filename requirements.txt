@@ -1,0 +1,14 @@
+pyrofork==2.3.58
+tgcrypto
+aiohttp
+python-dotenv
+motor
+aiofiles
+dnspython
+apscheduler
+requests
+validators
+psutil
+jinja2
+shortzy
+telegraph
