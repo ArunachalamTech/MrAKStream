@@ -99,7 +99,7 @@ I am Powerfull files to link and shortner link in 4GB.
 
     ABOUT_TXT = """<b>╭──────❰ <U>🤖 Bot Details</U> ❱──────〄
 │ 
-│ 🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/MrAKStreamingBot>𝙼𝚁𝗔𝗞 𝐅𝚒𝚕𝚎𝐓𝚘𝐋𝚒𝚗𝚔𝐁𝚘𝚝</a>
+│ 🤖 Mʏ Nᴀᴍᴇ : <a href=https://t.me/MrAKStreamBot>𝙼𝚁𝗔𝗞 𝐅𝚒𝚕𝚎𝐓𝚘𝐋𝚒𝚗𝚔𝐁𝚘𝚝</a>
 │ 👨‍💻 Dev : <a href=https://t.me/MrAK_BOTS>𝙼𝚁𝗔𝗞 𝐁𝐎𝐓𝐒</a>
 │ 📢 Uᴘᴅᴀᴛᴇꜱ : <a href=https://t.me/MrAK_BOTS>𝙼𝚁𝗔𝗞 𝐁𝐎𝐓𝐒</a>
 │ 📡 Server : <a href=https://www.heroku.com/>Heroku Eco</a>
