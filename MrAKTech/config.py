@@ -1,4 +1,4 @@
-#Copyright 2021 To 2024-present, Author: MrTamilKiD
+#Copyright 2021 To 2024-present
  
 import os
 from os import environ as env
@@ -20,11 +20,11 @@ class Telegram:
     START_PIC = env.get('START_PIC', "https://graph.org/file/290af25276fa34fa8f0aa.jpg")
     VERIFY_PIC = env.get('VERIFY_PIC', "https://graph.org/file/736e21cc0efa4d8c2a0e4.jpg")
     # Optional command
-    FILE_STORE_BOT_TOKEN = str(env.get("FILE_STORE_BOT_TOKEN", "7246001952:AAHbkl-RwW3NPoCdrhezQgYzZqPqGcIsE5o"))
-    FILE_STORE_BOT_USERNAME = str(env.get("FILE_STORE_BOT_USERNAME", "MrAKStreamFilesBot"))
+    FILE_STORE_BOT_TOKEN = str(env.get("FILE_STORE_BOT_TOKEN", "7839112623:AAG3AMqMMwQuAPLL2ZFX7zAYT5yReoZQhMc"))
+    FILE_STORE_BOT_USERNAME = str(env.get("FILE_STORE_BOT_USERNAME", "MrAKStreamFileBot"))
     # Channel list
-    AUTH_CHANNEL = int(env.get("AUTH_CHANNEL", "-1002032099678"))   # Logs channel for auth channel main
-    AUTH_CHANNEL2 = int(env.get("AUTH_CHANNEL2", "-1002312837151")) # Logs channel for auth channel sub
+    AUTH_CHANNEL = int(env.get("AUTH_CHANNEL", "-1002467628368"))   # Logs channel for auth channel main
+    AUTH_CHANNEL2 = int(env.get("AUTH_CHANNEL2", "-1002280665579")) # Logs channel for auth channel sub
     FLOG_CHANNEL = int(env.get("FLOG_CHANNEL", "-1002678619141"))   # Logs channel for file logs
     ULOG_CHANNEL = int(env.get("ULOG_CHANNEL", "-1002574716230"))   # Logs channel for user logs
     ELOG_CHANNEL = int(env.get("ELOG_CHANNEL", "-1002657841408"))   # Logs channel for error logs
