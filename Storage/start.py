@@ -34,7 +34,7 @@ async def start(client, message):
         if not await is_user_joined(client, message, Telegram.AUTH_CHANNEL2):
             return
         await message.reply_text(
-            text=f" <b> Hᴇʟʟᴏ {message.from_user.first_name} \n\nɪ ᴀᴍ ᴀ ʙᴏᴛ ᴛʜᴀᴛ ᴘʀᴏᴠɪᴅᴇs ғɪʟᴇ ᴀᴄᴄᴇss ғᴏʀ @MrAKStreamingBot ʙᴏᴛ. </b>\n\n/donation",
+            text=f" <b> Hᴇʟʟᴏ {message.from_user.first_name} \n\nɪ ᴀᴍ ᴀ ʙᴏᴛ ᴛʜᴀᴛ ᴘʀᴏᴠɪᴅᴇs ғɪʟᴇ ᴀᴄᴄᴇss ғᴏʀ @MrAKStreamBot ʙᴏᴛ. </b>\n\n/donation",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -43,7 +43,7 @@ async def start(client, message):
                         InlineKeyboardButton("⚡ Support", url="https://t.me/MrAK_BOTS"),
                     ],
                     [
-                        InlineKeyboardButton("❤️ Create Like This Link ❤️", url="https://t.me/MrAKStreamingBot"),
+                        InlineKeyboardButton("❤️ Create Like This Link ❤️", url="https://t.me/MrAKStreamBot"),
                     ],
                     [
                         InlineKeyboardButton("🔰 Join Now 🔰", url="https://t.me/+1EgUhBbcIHQzMDU1"),
