@@ -8,11 +8,11 @@ from pyrogram.errors import FloodWait, PeerIdInvalid
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 from MrAKTech import StreamBot
-from MrAKTech.config import Telegram, Domain
-from MrAKTech.database.u_db import u_db
-from MrAKTech.tools.human_readable import humanbytes
-from MrAKTech.tools.file_properties import get_name, get_hash, get_media_file_size
-from MrAKTech.tools.utils_bot import get_shortlink
+from config import Telegram, Domain
+from database.u_db import u_db
+from tools.human_readable import humanbytes
+from tools.file_properties import get_name, get_hash, get_media_file_size
+from tools.utils_bot import get_shortlink
 
 
 @StreamBot.on_chat_join_request(filters.group | filters.channel & ~filters.private)

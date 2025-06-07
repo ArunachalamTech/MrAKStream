@@ -14,14 +14,14 @@ from aiohttp.http_exceptions import BadStatusLine
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 from MrAKTech import StreamBot, multi_clients, work_loads
-from MrAKTech.server.exceptions import FIleNotFound, InvalidHash
-from MrAKTech.tools.custom_dl import ByteStreamer, chunk_size, offset_fix
-from MrAKTech.tools.render_template import render_page
-from MrAKTech.tools.utils_bot import temp, readable_time
-from MrAKTech.tools.file_properties import get_file_ids, get_namex
-from MrAKTech.tools.human_readable import humanbytes
-from MrAKTech.tools.txt import tamilxd
-from MrAKTech.config import Telegram, Server, Domain
+from server.exceptions import FIleNotFound, InvalidHash
+from tools.custom_dl import ByteStreamer, chunk_size, offset_fix
+from tools.render_template import render_page
+from tools.utils_bot import temp, readable_time
+from tools.file_properties import get_file_ids, get_namex
+from tools.human_readable import humanbytes
+from tools.txt import tamilxd
+from config import Telegram, Server, Domain
 
 logger = logging.getLogger("routes")
 

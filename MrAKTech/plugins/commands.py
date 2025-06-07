@@ -12,10 +12,10 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.enums.parse_mode import ParseMode
 
 from MrAKTech import StreamBot
-from MrAKTech.config import Telegram
-from MrAKTech.tools.txt import tamilxd, BUTTON
-from MrAKTech.database.u_db import u_db
-from MrAKTech.tools.utils_bot import temp, readable_time, verify_user, is_check_admin
+from config import Telegram
+from tools.txt import tamilxd, BUTTON
+from database.u_db import u_db
+from tools.utils_bot import temp, readable_time, verify_user, is_check_admin
 
 logger = logging.getLogger(__name__)
 

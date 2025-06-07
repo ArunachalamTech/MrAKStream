@@ -10,9 +10,9 @@ from pyrogram.errors import UserNotParticipant, FloodWait, UserIsBlocked
 from pyrogram.enums.parse_mode import ParseMode
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from MrAKTech.config import Telegram, Domain
-from MrAKTech.database.u_db import u_db
-from MrAKTech.tools.txt import tamilxd
+from config import Telegram, Domain
+from database.u_db import u_db
+from tools.txt import tamilxd
 
 LOGGER = logging.getLogger(__name__)
 SIZE_UNITS = ["B", "KB", "MB", "GB", "TB", "PB"]

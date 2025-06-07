@@ -10,10 +10,10 @@ from pyrogram import enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 from MrAKTech import StreamBot, work_loads, multi_clients, cdn_count
-from MrAKTech.config import Telegram
-from MrAKTech.database.u_db import u_db
-from MrAKTech.tools.txt import tamilxd, BUTTON
-from MrAKTech.tools.utils_bot import readable_time, get_readable_file_size, temp, is_check_admin
+from config import Telegram
+from database.u_db import u_db
+from tools.txt import tamilxd, BUTTON
+from tools.utils_bot import readable_time, get_readable_file_size, temp, is_check_admin
 
 @StreamBot.on_callback_query()
 async def cb_handler(bot, query: CallbackQuery):

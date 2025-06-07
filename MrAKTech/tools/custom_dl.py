@@ -3,14 +3,14 @@
 import math
 import asyncio
 import logging
-from MrAKTech.config import Telegram
+from config import Telegram
 from typing import Dict, Union
 from MrAKTech import work_loads
 from pyrogram import Client, utils, raw
 from .file_properties import get_file_ids
 from pyrogram.session import Session, Auth
 from pyrogram.errors import AuthBytesInvalid
-from MrAKTech.server.exceptions import FIleNotFound
+from server.exceptions import FIleNotFound
 from pyrogram.file_id import FileId, FileType, ThumbnailSource
 
 logger = logging.getLogger("streamer")

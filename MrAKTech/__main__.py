@@ -5,14 +5,14 @@ import time
 import asyncio
 import logging
 import logging.handlers as handlers
-from MrAKTech.config import Server
+from config import Server
 from aiohttp import web
 from pyrogram import idle, utils as pyroutils
 
 from MrAKTech import StreamBot
-from MrAKTech.server import web_server
-from MrAKTech.clients import initialize_clients, restart_bot
-from MrAKTech.tools.utils_bot import temp
+from server import web_server
+from clients import initialize_clients, restart_bot
+from tools.utils_bot import temp
 
 logging.basicConfig(
     level=logging.INFO,

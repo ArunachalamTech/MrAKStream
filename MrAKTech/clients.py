@@ -4,7 +4,7 @@ import asyncio
 import logging
 from os import environ
 from pyrogram import Client
-from MrAKTech.config import Telegram
+from config import Telegram
 from MrAKTech import multi_clients, work_loads, StreamBot
 
 logger = logging.getLogger("multi_client")
