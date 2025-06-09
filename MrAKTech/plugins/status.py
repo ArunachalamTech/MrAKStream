@@ -9,9 +9,9 @@ from pyrogram.enums.parse_mode import ParseMode
 from pyrogram import filters
 
 from MrAKTech import StreamBot, work_loads, multi_clients, cdn_count
-from database.u_db import u_db
-from tools.utils_bot import readable_time, get_readable_file_size, temp
-from tools.txt import tamilxd
+from MrAKTech.database.u_db import u_db
+from MrAKTech.tools.utils_bot import readable_time, get_readable_file_size, temp
+from MrAKTech.tools.txt import tamilxd
 
 
 IMAGE_X = "https://graph.org/file/cbcf2177d0f74475eecb7.jpg"

@@ -4,10 +4,10 @@ import time
 import asyncio
 
 from MrAKTech import StreamBot
-from config import Telegram
-from database.u_db import u_db
-from tools.txt import tamilxd, BUTTON
-from tools.utils_bot import temp, get_time, broadcast_messages
+from MrAKTech.config import Telegram
+from MrAKTech.database.u_db import u_db
+from MrAKTech.tools.txt import tamilxd, BUTTON
+from MrAKTech.tools.utils_bot import temp, get_time, broadcast_messages
 
 from pyrogram import filters
 from pyrogram.errors import ChatAdminRequired

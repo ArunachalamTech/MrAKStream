@@ -7,10 +7,10 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.enums.parse_mode import ParseMode
 from pyrogram.errors import ChatAdminRequired
 
-from config import Telegram, Domain
-from database.u_db import u_db
-from tools.utils_bot import is_subscribed, is_user_joined
-from tools.txt import tamilxd, BUTTON
+from MrAKTech.config import Telegram, Domain
+from MrAKTech.database.u_db import u_db
+from MrAKTech.tools.utils_bot import is_subscribed, is_user_joined
+from MrAKTech.tools.txt import tamilxd, BUTTON
 
 
 def get_all_media_file_data(m):

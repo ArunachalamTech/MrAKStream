@@ -2,8 +2,8 @@
 
 import datetime
 import motor.motor_asyncio
-from config import Telegram
-from tools.txt import tamilxd
+from MrAKTech.config import Telegram
+from MrAKTech.tools.txt import tamilxd
 
 
 class Database:

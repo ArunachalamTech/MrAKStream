@@ -6,11 +6,11 @@ import logging
 import aiohttp
 import random
 
-from config import Telegram, Domain
+from MrAKTech.config import Telegram, Domain
 from MrAKTech import StreamBot
-from tools.human_readable import humanbytes
-from tools.file_properties import get_file_ids
-from server.exceptions import InvalidHash
+from MrAKTech.tools.human_readable import humanbytes
+from MrAKTech.tools.file_properties import get_file_ids
+from MrAKTech.server.exceptions import InvalidHash
 
 
 async def render_page(id, secure_hash, src=None):

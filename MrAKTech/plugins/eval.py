@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.errors import MessageTooLong
 import sys
 import traceback
-from config import Telegram
+from MrAKTech.config import Telegram
 from MrAKTech import StreamBot
 from io import StringIO
 

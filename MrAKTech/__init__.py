@@ -1,7 +1,7 @@
 # Copyright 2021 To 2024-present, Author: MrAKTech
 import time  # noqa: F401
 from pyrogram import Client
-from config import Telegram
+from MrAKTech.config import Telegram
 
 StreamBot = Client(
     name="Web Streamer",

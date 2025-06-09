@@ -4,7 +4,7 @@ import asyncio
 import logging
 import aiohttp
 import traceback
-from config import Server
+from MrAKTech.config import Server
 
 
 async def ping_server():
