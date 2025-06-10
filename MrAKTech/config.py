@@ -10,7 +10,7 @@ class Telegram:
     MULTI_CLIENT = True
     API_ID = int(env.get("API_ID", "22225617"))
     API_HASH = str(env.get("API_HASH", "ef16f7597376f1689663304c954e4493"))
-    BOT_TOKEN = str(env.get("BOT_TOKEN", "7972636771:AAF2U7qEolfHniSzYuakaMCKOis5QKKx94E"))
+    BOT_TOKEN = str(env.get("BOT_TOKEN", "7972636771:AAECNBf-NIoKAYWDBvfBx7mm0I8Zv9z_o0I"))
     OWNER_ID = {int(x) for x in os.environ.get("OWNER_ID", "6072149828").split()}
     WORKERS = int(env.get("WORKERS", "999"))  # 6 workers = 6 commands at once
     DATABASE_URL = str(env.get('DATABASE_URL','mongodb+srv://arunachalamtech:S.Aruna1155@stream.1oiti.mongodb.net/?retryWrites=true&w=majority&appName=stream'))
