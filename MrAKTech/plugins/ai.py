@@ -41,7 +41,7 @@ async def gpt(app, message: Message):
 
     try:
         # if resp.status_code == 200:
-        await m.edit_text(f"{resp.json()["message"]["content"]}")
+        await m.edit_text(f"{resp.json()['message']['content']}")
         # await m.edit_text(f"Error :-\n{resp.json()}")
     except Exception as e:
         await m.edit_text(f"Error :-\n{e}")
