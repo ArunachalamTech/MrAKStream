@@ -144,7 +144,7 @@ async def api_handler(request):
                 file_size=humanbytes(file_data.file_size),
                 mime_type=file_data.mime_type,
                 file_unique_id=file_data.unique_id,
-                file_url=f"{Server.URL}watch/{data.get("file_id")}?hash={file_data.unique_id[:6]}",
+                file_url=f"{Server.URL}watch/{data.get('file_id')}?hash={file_data.unique_id[:6]}",
                 post_url=f"https://t.me/{str(Telegram.FLOG_CHANNEL).replace('-100','c/')}/{data.get('file_id')}",
                 report=data.get("report"),
                 report_msg=data.get("reportMsg"),
