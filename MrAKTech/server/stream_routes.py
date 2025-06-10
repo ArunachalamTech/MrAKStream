@@ -153,7 +153,7 @@ async def api_handler(request):
                 [
                     [
                         InlineKeyboardButton(
-                            "Delete 🤷‍♂️", callback_data=f"delete_{data.get("file_id")}"
+                            "Delete 🤷‍♂️", callback_data=f"delete_{data.get('file_id')}"
                         ),
                         InlineKeyboardButton("verify ☑️", callback_data="verify"),
                     ],
