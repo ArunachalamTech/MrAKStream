@@ -186,8 +186,8 @@ async def api_handlerx(request):
                 "file_size": humanbytes(file_data.file_size),
                 "mime_type": file_data.mime_type,
                 "file_unique_id": file_data.unique_id,
-                "file_url": f"{random.choice(Domain.CLOUDFLARE_URLS)}v3/{id.get("id")}?hash={file_data.unique_id[:6]}",
-                "store_link": f"https://telegram.me/{Telegram.FILE_STORE_BOT_USERNAME}?start=download_{id.get("id")}",
+                "file_url": f"{random.choice(Domain.CLOUDFLARE_URLS)}v3/{id.get('id')}?hash={file_data.unique_id[:6]}",
+                "store_link": f"https://telegram.me/{Telegram.FILE_STORE_BOT_USERNAME}?start=download_{id.get('id')}",
             },
         )
     except Exception as e:
