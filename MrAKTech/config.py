@@ -43,11 +43,11 @@ class Domain:
     ]  
     
 class Server:
-    PORT = int(env.get("PORT", 8080))
-    BIND_ADDRESS = str(env.get("BIND_ADDRESS", "0.0.0.0"))
+    PORT = int(env.get("PORT", 9003))
+    BIND_ADDRESS = str(env.get("BIND_ADDRESS", "25xserver.hostingup.icu"))
     PING_INTERVAL = int(env.get("PING_INTERVAL", "1200"))
     HAS_SSL = str(env.get("HAS_SSL", "0").lower()) in ("1", "true", "t", "yes", "y")
     NO_PORT = str(env.get("NO_PORT", "0").lower()) in ("1", "true", "t", "yes", "y")
     FQDN = str(env.get("FQDN", BIND_ADDRESS))
-    URL = "http://25xserver.hostingup.icu:9003/"
+    URL = FQDN
 
