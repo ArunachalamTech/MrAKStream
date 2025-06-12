@@ -36,10 +36,10 @@ class Telegram:
     SPAMWATCH_GROUP = int(env.get("SPAMWATCH_GROUP", "-1002189074737")) # Group for spamwatch
 
 class Domain:
-    TEMP_URL = str(env.get("FQDN", "http://mraklinkzz.com:9003/"))
-    CHANNEL_URL = str(env.get("CHANNEL_URL", "http://mraklinkzz.com:9003/")) 
+    TEMP_URL = str(env.get("FQDN", "https://mraklinkzz.com:9003/"))
+    CHANNEL_URL = str(env.get("CHANNEL_URL", "https://mraklinkzz.com:9003/")) 
     CLOUDFLARE_URLS = [
-        "http://mraklinkzz.com:9003/"
+        "https://mraklinkzz.com:9003/"
     ]  
     
 class Server:
